@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
+#include "libredy.h"
 /*Declaração de funções*/
 
 void norep(int x, int *iVetor); 
@@ -33,7 +33,7 @@ system("pause");
 }
 
 /*Função para preenchimento do vetor e comparação de números iguais*/
-void norep(int x, int *iVetor) 
+/*void norep(int x, int *iVetor) 
 {
     int k, j, iAux, iFlag = 0;
 
@@ -51,4 +51,4 @@ void norep(int x, int *iVetor)
             k--;
         iFlag = 0;
     }
-}
+}*/
